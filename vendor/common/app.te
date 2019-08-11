@@ -34,3 +34,5 @@ allow appdomain vendor_scroll_prop:file r_file_perms;
 
 # Read vendor camera props
 get_prop(appdomain, vendor_camera_prop)
+
+allow untrusted_app vendor_gles_data_file:dir search;
